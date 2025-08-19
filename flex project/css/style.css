@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animal {
+    display: flex;
+    justify-content: space-around;  
+    background-color:rgb(141, 245, 141);
+    padding: 20px;
+}
+.animal_image audio {
+    margin-top: 15px;
+}
+.animal_video{
+    margin-top:-100px;
+}
+.animal_details{
+    margin-top: 60px;
+}
+.bird{
+    display: flex;
+    justify-content: space-around;
+    background-color: skyblue;
+    padding: 20px;
+}
+.bird_image{
+    margin-top: 50px;
+}
+.bird_image audio{
+    margin-top: 15px;
+}
+.bird_video {
+    margin: 10px;
+}
+.bird_details{
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fish {
+    display: flex;
+    justify-content: space-around;
+    background-color:aquamarine;
+    padding: 20px;
+}
+.fish_image audio{
+    margin-top: 15px;
+}
+.fish_details{
+    margin-top: 100px;
+}
+.fish_video{
+    margin-top: -100px;
+}
